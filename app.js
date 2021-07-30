@@ -24,8 +24,12 @@ for (const nl of navLink) {
 const nav_dropdown = document.querySelectorAll('.nav__dropdown');
 
 for (const d of nav_dropdown) {
-    d.addEventListener('click', function(){
-        this.classList.toggle("show-dropdown");
-        this.children[0].children[2].classList.toggle("rotate");
+    d.addEventListener('click', function(e){
+        console.log()
+        if(!e.target.classList.contains("nav__dropdown-item")){
+            this.classList.toggle("show-dropdown");
+            this.children[0].children[2].classList.toggle("rotate");
+        }
+        
     })
 }
