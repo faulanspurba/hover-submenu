@@ -335,15 +335,9 @@ img {
     -webkit-transition: .3s;
     transition: .3s;
   }
-  .nav:hover .nav__logo-name {
-    opacity: 1;
-  }
-  .nav:hover .nav__subtitle {
-    opacity: 1;
-  }
-  .nav:hover .nav__name {
-    opacity: 1;
-  }
+  .nav:hover .nav__logo-name,
+  .nav:hover .nav__name,
+  .nav:hover .nav__subtitle,
   .nav:hover .nav__dropdown-icon {
     opacity: 1;
   }
