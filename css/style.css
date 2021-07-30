@@ -179,6 +179,10 @@ img {
   margin-bottom: 2.5rem;
 }
 
+.nav__logo-name {
+  margin-left: 10px;
+}
+
 .nav__list, .nav__items {
   display: -ms-grid;
   display: grid;
