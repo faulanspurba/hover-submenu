@@ -19,3 +19,13 @@ function colorLink() {
 for (const nl of navLink) {
     nl.addEventListener('click', colorLink)
 }
+
+// open dropdown when clicked
+const nav_dropdown = document.querySelectorAll('.nav__dropdown');
+
+for (const d of nav_dropdown) {
+    d.addEventListener('click', function(){
+        this.classList.toggle("show-dropdown");
+        this.children[0].children[2].classList.toggle("rotate");
+    })
+}

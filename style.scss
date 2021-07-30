@@ -238,12 +238,12 @@ img {
 }
 
 // SHOW COLLAPSE
-.nav__dropdown:hover {
+.show-dropdown {
     max-height: 100rem;
 }
 
 // ROTATE ICON ARROW
-.nav__dropdown:hover .nav__dropdown-icon {
+.rotate {
     transform: rotate(180deg);
 }
 

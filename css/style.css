@@ -264,11 +264,11 @@ img {
   transition: .4s;
 }
 
-.nav__dropdown:hover {
+.show-dropdown {
   max-height: 100rem;
 }
 
-.nav__dropdown:hover .nav__dropdown-icon {
+.rotate {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
